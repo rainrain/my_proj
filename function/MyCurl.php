@@ -29,11 +29,34 @@ class MyCurl
         return $output;
     }
 
+    public static function postRequest($url,Array $data=array()){
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        // post数据
+        curl_setopt($ch, CURLOPT_POST, 1);
+        // post的变量
+        if($data){
+             curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        }
+        $output = curl_exec($ch);
+        curl_close($ch);
+        //打印获得的数据
+        return $output;
+    }
+
+
+
 }
 
 
-//测试get方法
-$url = "http://localhost:8080/test/test.php";//改文件有一行代码  var_dump($_GET);
+//准备数据
+$url = "http://localhost:8080/test/test.php";//改文件有代码  print_r($_GET);         print_r($_POST)
 $data = array('a'=>'b','c'=>'d',8=>666,888);
+//测试get方法
 $result = MyCurl::getRequest($url,$data);
+//测试post方法
+$result = MyCurl::postRequest($url,$data);
+//打印结果
 var_dump($result);
+
