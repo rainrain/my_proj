@@ -205,7 +205,7 @@ class checkIdCard{
     }
 
 }
-$num = '410622198601100052';
+$num = '410622196601300153';
 // 1为男，2为女，不输入为不验证
 $sex = 1;
 $test = new checkIdCard();

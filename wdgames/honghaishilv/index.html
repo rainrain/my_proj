@@ -14,10 +14,6 @@ body{background:url(460.jpg) repeat left top;color:#61696a;font-family:'Bree Ser
 
 <body style="zoom: 1;">
 
-
-
-
-<iframe frameborder="0" style="display: none;"></iframe><div id="bdshare_s" style="display: block;"><iframe id="bdsIfr" style="position:absolute;display:none;z-index:9999;" frameborder="0"></iframe><div id="bdshare_l" style="display: none;"><div id="bdshare_l_c"><h6>分享到</h6><ul><li><a href="honghaishilv.html" class="bds_mshare mshare">一键分享</a></li><li><a href="honghaishilv.html" class="bds_qzone qqkj">QQ空间</a></li><li><a href="honghaishilv.html" class="bds_tsina xlwb">新浪微博</a></li><li><a href="honghaishilv.html" class="bds_bdysc bdysc">百度云收藏</a></li><li><a href="honghaishilv.html" class="bds_renren rrw">人人网</a></li><li><a href="honghaishilv.html" class="bds_tqq txwb">腾讯微博</a></li><li><a href="honghaishilv.html" class="bds_bdxc bdxc">百度相册</a></li><li><a href="honghaishilv.html" class="bds_kaixin001 kxw">开心网</a></li><li><a href="honghaishilv.html" class="bds_tqf txpy">腾讯朋友</a></li><li><a href="honghaishilv.html" class="bds_tieba bdtb">百度贴吧</a></li><li><a href="honghaishilv.html" class="bds_douban db">豆瓣网</a></li><li><a href="honghaishilv.html" class="bds_tsohu shwb">搜狐微博</a></li><li><a href="honghaishilv.html" class="bds_bdhome bdhome">百度新首页</a></li><li><a href="honghaishilv.html" class="bds_sqq sqq">QQ好友</a></li><li><a href="honghaishilv.html" class="bds_thx thx">和讯微博</a></li><li><a href="honghaishilv.html" class="bds_more">更多...</a></li></ul><p><a href="honghaishilv.html" class="goWebsite">百度分享</a></p></div></div></div>
 <div class="wrapper">
 	<div class="splash">
     	<h1><span class="green">红</span> 还是 <span class="red">绿</span>?</h1>
@@ -315,13 +311,10 @@ body{background:url(460.jpg) repeat left top;color:#61696a;font-family:'Bree Ser
 </div>
 <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=603462" src="bds_s_v2.js"></script>
 
-<script type="text/javascript">
-document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
-</script>
 <!-- Baidu Button END -->
 </div>
             <p><br><br><br></p>
-            <p><a href="honghaishilv.html" class="button retry">再玩一次</a>&nbsp;&nbsp;<a href="http://g.huceo.com/weixin/" class="button ">更多精彩</a></p>
+            <p><a href="honghaishilv.html" class="button retry">再来?</a>&nbsp;&nbsp;<a href="http://www.yodo1.cn" class="button ">更多精彩</a></p>
             <!---->
             </div>
             <!-- END fb_plugin -->
@@ -331,7 +324,6 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
     </div><!-- END all_quest -->
     <div class="hint"><ul><li class="tick" style="display: none;">对!</li><li class="cross" style="display: none;">错!</li></ul></div><!-- END hint -->
     
-    <div class="copyrights"><p style="font-size:17px;"><a href="http://game.id87.com/youxi/games/honghaishilv/" target="_blank" style="color:red;">看你有多色？</a>|<a href="http://g.huceo.com/weixin/" target="_blank" title="更多游戏">更多游戏</a></p>
     <script src="static/saved_resource"></script>
     </div>
     
@@ -346,10 +338,10 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
 window.addEventListener("load",function(){setTimeout(function(){window.scrollTo(0,1)},0)});$(document).ready(function(){var i,totalQuest,timeUp,score,howto=$('.howto'),allQuest=$('.all_quest'),splash=$('.splash'),timeCountDiv=$(".timeCount"),totalQuestDiv=$('.totalQuest'),tickIcon=$('.tick'),crossIcon=$('.cross');init();function init(){i=1;totalQuest=20;timeUp=3500;score=0;$('.result').hide();howto.hide();$('.hint ul').children().hide();allQuest.children().hide();totalQuestDiv.hide().html('问题 '+i+' / '+totalQuest);splash.show()}$('.splash a').click(function(e){e.preventDefault();splash.hide();howto.fadeIn('slow')});$('.howto a').click(function(e){e.preventDefault();howto.hide();startGame()});$('.answer a').click(function(e){var ans=$(this).data('verify');var default_ans="dui";e.preventDefault();$('.answer a').addClass('disable_click');if(ans===default_ans){score+=1;tickIcon.fadeIn('slow',function(){$(this).fadeOut('fast')})}else{crossIcon.fadeIn('slow',function(){$(this).fadeOut('fast')})}$('.quest'+i).fadeOut('slow',function(){if(i<totalQuest&&timeUp>=1){i++;$('.quest'+i).fadeIn('slow',function(){$('.answer a').removeClass('disable_click')})}else{showResult();clearInterval(timeLoop)}totalQuestDiv.html('问题 '+i+' / '+totalQuest)})});$('.retry').click(function(e){e.preventDefault();init()});function startGame(){$('.quest1').show();timeCountDiv.show();totalQuestDiv.show();timeLoop=setInterval(timeUpCount,1000/60)}function timeUpCount(){var time=parseInt(timeUp);var minutes=Math.floor(time/60);var seconds=time%60;if(timeUp>=1){timeUp--}else{showResult();clearInterval(timeLoop)}timeCountDiv.html("时间 "+minutes+":"+seconds)}function showResult(){allQuest.children().hide();totalQuestDiv.hide();timeCountDiv.hide();$('.result .score').html('答对'+score+'个题，共'+totalQuest+'题.色感'+score*5+'分；');$('.result').fadeIn('slow');dp_submitScore(score)}});
 </script>
 <script language="javascript">
-		var mebtnopenurl = 'http://game.id87.com/youxi/';
+		var mebtnopenurl = 'http://www.yodo1.cn';
 		window.shareData = {
 		        "imgUrl": "logo.jpg",
-		        "timeLineLink": "http://game.id87.com/youxi/games/honghaishilv/",
+		        "timeLineLink": "http://www.yodo1.cn",
 		        "tTitle": "最坑人的辨色大比拼！",
 		        "tContent": "全世界最坑的辨色大比拼，1分钟内让你抓狂不已！"
 		};
@@ -379,7 +371,7 @@ window.addEventListener("load",function(){setTimeout(function(){window.scrollTo(
 		}
 		function dp_Ranking(){
 			//alert("到更多");
-			document.location.href = "http://g.huceo.com/weixin/";
+			document.location.href = "http://www.yodo1.cn/";
 		}
 		document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
 		    
@@ -408,9 +400,5 @@ window.addEventListener("load",function(){setTimeout(function(){window.scrollTo(
 		    });
 		}, false);
 </script>
-
-<span style="display: none">
-<script type="text/javascript" src="http://tajs.qq.com/stats?sId=34915524" charset="UTF-8"></script>
-</span>
 
 </body></html>

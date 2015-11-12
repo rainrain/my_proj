@@ -1,0 +1,49 @@
+1.php历史
+http://www.php.net/manual/en/history.php.php
+http://www.php.net/manual/zh/history.php.php
+发布历史http://php.net/releases/
+log----http://www.php.net/ChangeLog-5.php#5.6.15
+2.phpng php7---性能
+php峰会发言http://www.csdn.net/article/1970-01-01/2825720
+--Improved performance: PHP 7 is up to twice as fast as PHP 5.6
+--Consistent 64-bit support
+--Many fatal errors are now Exceptions
+--Removal of old and unsupported SAPIs and extensions
+--The null coalescing operator (??)
+--Combined comparison Operator (<=>)
+--Return Type Declarations
+--Scalar Type Declarations
+--Anonymous Classes
+鸟哥专访--http://www.oschina.net/news/59059/laruence-interview
+php创始人--http://www.oschina.net/news/67410/php-7-performance-doubles?p=3
+HHVM--http://baike.baidu.com/link?url=VYwFNIRQSonyKPtASHOgGQYv7A6ZoV07rGnG91smBli19t6D5mcQgEcVdbHA2vZilNsZGV3ub73zdHUoKBe1Kq
+鸟哥亲测-http://www.laruence.com/2014/12/18/2976.html
+3.语言的选择
+4.fis.baidu.com
+5.jqmb-phonegap
+6.composer包管理
+http://baike.baidu.com/link?url=J_k1wHwRVna-zcvvhsf8FfGmoWZvrPrBzCO3JomcaCzfQEZTCtDsSbWF6gcYHvDRbL-j179NUbyjFjnPZH_pZK
+
+关于php 6 http://weibo.com/1170999921/BkvZ1aLqe?type=comment
+
+php7测试版下载--https://downloads.php.net/~ab/
+
+发布历史--http://php.net/archive/2015.php
+
+看看网站用的什么语言  http://builtwith.com/
+
+HHVM
+
+PHP6 PHP5.3
+
+XHProf
+http://172.16.202.212:8080/xhprof/xhprof_html/index.php?run=56416147316c7&source=xhprof_rain
+
+xdebug
+安装--http://www.cnblogs.com/tippoint/p/3429384.html
+
+swool/workerman...
+http://www.swoole.com/
+http://www.workerman.net/
+myFramework
+github
