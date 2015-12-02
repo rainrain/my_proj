@@ -48,6 +48,11 @@ class MongoDbLibrary{
 		return $this->makeResult2Arr($res);
 	}
 
+	public function find($query,$field=array()){
+		$res = $this->coll->find($query,$field);
+		return $this -> makeResult2Arr($res);
+	}
+
 
 	private function makeResult2Arr($res){
 		$return = array();
